@@ -1,0 +1,40 @@
+.Card{
+  width:30%;
+  border: 1px solid black;
+  margin: 5px;
+  background: rgb(138, 248, 248);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Card:hover{
+  width: 35%;
+  background: rgb(49, 248, 248);  
+}
+
+.Card button {
+  font-weight: bold;
+  padding: 0.75rem 1.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.Card button:hover {
+  background: rgb(74, 167, 167);
+  width: 33%;
+  height: 4%;
+}
+
+.btn-group,
+.Card button {
+  display: inline;
+  margin-bottom: 25px;
+}
+
+.Card button {
+  color: white;
+  background-color: #2F4F4F;
+  cursor: pointer;
+  background: rgb(74, 167, 167);
+}
